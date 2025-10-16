@@ -195,3 +195,10 @@ ruff check . --fix
  - Implementar a lógica para armazenar anexos de sinistros no MongoDB.
 
 ## Prints dos Bancos para Mostrar Resultados
+
+![Auditoria no MongoDB](images/auditoria.png)
+
+--- 
+
+![Estrutura no MySQL e Demonstração dos Dados em Usuários](images/mysql_usuarios.png)
+
