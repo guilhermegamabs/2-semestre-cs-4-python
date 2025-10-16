@@ -1,0 +1,8 @@
+mysql-connector-python
+pymongo
+pytest 
+pytest-cov 
+unittest-mock
+black 
+ruff
+python-dotenv
