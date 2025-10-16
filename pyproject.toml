@@ -1,9 +1,10 @@
 [tool.pytest.ini_options]
 minversion = "6.0"
-addopts = "-ra -q --cov=src --cov-report=html" # Adiciona a geração de cobertura
+addopts = "-ra -q --cov=src --cov-report=html"
 testpaths = [
     "tests",
 ]
+pythonpath = ["."]  
 
 [tool.black]
 line-length = 88
@@ -19,7 +20,7 @@ select = [
     "C",  # flake8-comprehensions
     "B",  # flake8-bugbear
 ]
-ignore = ["E501"] # Ignorar erro de linha muito longa (o black já resolve)
+ignore = ["E501"]
 
 [tool.ruff.per-file-ignores]
-"__init__.py" = ["F401"] # Ignorar "unused import" em arquivos __init__.py
+"__init__.py" = ["F401"]

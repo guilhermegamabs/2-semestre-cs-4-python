@@ -1,5 +1,5 @@
 import hashlib
-from db.mysql_handler import get_mysql_connection as conectar_mysql
+from src.db.mysql_handler import get_mysql_connection as conectar_mysql
 from auditoria import registrar_evento
 
 def criar_usuario(username, senha, perfil, usuario_ativo="sistema"):

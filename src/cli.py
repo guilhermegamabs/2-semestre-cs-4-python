@@ -1,4 +1,4 @@
-from core.services import (
+from src.core.services import (
     criar_cliente_service, listar_clientes_service, buscar_cliente_service, 
     atualizar_cliente_service, remover_cliente_service,
     criar_seguro_service, listar_seguros_service, buscar_seguro_service, 
@@ -6,12 +6,12 @@ from core.services import (
     registrar_sinistro_service, listar_sinistros_service, buscar_sinistro_service, 
     atualizar_sinistro_service
 )
-from relatorios import receita_mensal, top_clientes, sinistros_por_status
-from usuarios import (
+from src.relatorios import receita_mensal, top_clientes, sinistros_por_status
+from src.usuarios import (
     autenticar, listar_usuarios, criar_usuario, 
     alterar_senha, deletar_usuario
 )
-from validacoes import OperacaoNaoPermitida
+from src.validacoes import OperacaoNaoPermitida
 
 def menu_principal():
     print("=== SISTEMA DE SEGUROS ===")

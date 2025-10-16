@@ -1,6 +1,6 @@
 import re
-from db.mysql_handler import get_mysql_connection as conectar_mysql
-from validacoes import validar_cpf
+from src.db.mysql_handler import get_mysql_connection as conectar_mysql
+from src.validacoes import validar_cpf
 
 # FUNÇÕES DE CLIENTES
 

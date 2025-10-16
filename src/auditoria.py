@@ -1,6 +1,6 @@
 import logging
 from datetime import datetime
-from db.mongo_handler import get_mongo_database
+from src.db.mongo_handler import get_mongo_database
 from pathlib import Path
 
 LOG_DIR = Path("logs")
