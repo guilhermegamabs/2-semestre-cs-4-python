@@ -6,7 +6,7 @@ Este repositório contém o código-fonte do projeto de sistema de gerenciamento
 
  - Guilherme Gama Bitencourt Souza | RM 565293
 
- - Carolina Novac Moraes | RM 565621
+ - Carolina Novakc Moraes | RM 565621
 
 ## Visão Geral do Projeto e da Sprint 4
 
